@@ -4,4 +4,4 @@
   description: Groovyfiles Linter
   entry: hooks/GroovyfilesLint.sh
   language: script
-  files: '*.groovy'
+  files: '^.*\.groovy$'
