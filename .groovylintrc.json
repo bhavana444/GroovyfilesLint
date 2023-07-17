@@ -1,0 +1,11 @@
+{
+  "extends": "recommended-jenkinsfile",
+  "rules": {
+     "DuplicateMapLiteral": "off",
+     "DuplicateNumberLiteral": "off",
+     "DuplicateStringLiteral": "off",
+     "CatchException": "off"
+    
+
+  }
+}

@@ -1,7 +1,6 @@
 ---
-- id: JenkinsfileLinter
-  name: Jenkinsfile Linter
-  description: Jenkinsfile Linter
-  entry: hooks/JenkinsfileLint.sh
+- id: GroovyfilesLinter
+  name: Groovyfiles Linter
+  description: Groovyfiles Linter
+  entry: hooks/GroovyfilesLint.sh
   language: script
-  files: ^Jenkinsfile
